@@ -17,6 +17,8 @@ Es una forma de organizar información en tablas con filas y columnas, estableci
   Es un atributo (una columna) o un conjunto de atributos (varias columnas) en una tabla (la tabla "hija" o "dependiente") que hace referencia a la clave primaria de otra tabla (la tabla "padre" o "referenciada").
 - **Restricción (constraint)**:  
   Es una regla o condición que se impone sobre los datos de una tabla o columna para asegurar la integridad, precisión y consistencia de la información almacenada en la base de datos.
+- **Consulta (query/queries)**:  
+  Una consulta es una orden o petición que se hace a una base de datos para buscar, ver, cambiar o borrar información.  
 
 ### Sistemas de Gestión de Bases de Datos Relacionales (RDBMS)(Motor - Engine):
 - SQLite
@@ -58,17 +60,17 @@ Es una forma de organizar información en tablas con filas y columnas, estableci
 - **Categorías de comandos SQL**:
   + **DDL - Lenguaje de Definición de Datos**:  
     Uso: crear, modificar o eliminar objetos en la base de datos.  
-    Ej.: CREATE, ALTER, DROP, etc.
+    Comandos principales: CREATE, ALTER, DROP, etc.
   + **DML - Lenguaje de Manipulación de Datos**:  
     Uso: consultar y modificar los datos.  
-    Ej.: SELECT, INSERT, UPDATE, DELETE, etc.  
+    Comandos principales: SELECT, INSERT, UPDATE, DELETE, etc.  
     *Este curso se enfoca, en el uso de instrucciones DML para consultar datos.*
   + **DCL - Lenguaje de Control de Datos**:  
     Uso: determinar quién puede ver o modificar los datos.  
-    Ej.: GRANT, DENY, REVOKE, etc.
+    Comandos principales: GRANT, DENY, REVOKE, etc.
   + **TCL - Lenguaje de Control de Transacciones**:  
     Uso: gestionar las transacciones en una base de datos.  
-    Ej.: COMMIT, ROLLBACK, SAVEPOINT, etc.
+    Comandos principales: COMMIT, ROLLBACK, SAVEPOINT, etc.
    
 ### ¿Qué es y cuándo usar NoSQL?  
 [🔗](https://www.oracle.com/lad/database/nosql/what-is-nosql/)
