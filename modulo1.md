@@ -40,7 +40,7 @@ Es una forma de organizar información en tablas con filas y columnas, estableci
 - **Escalabilidad**:  
   Las bases de datos relacionales pueden manejar grandes volúmenes de datos.
 
-### Ejemplos de uso:
+### Casos de uso:
 - **Gestión de bases de datos en el comercio minorista**:  
   Para almacenar información sobre productos, clientes y pedidos.
 - **Atención médica**:  
