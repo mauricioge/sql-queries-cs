@@ -40,26 +40,15 @@ Es una forma de organizar información en tablas con filas y columnas, estableci
 - **Escalabilidad**:  
   Las bases de datos relacionales pueden manejar grandes volúmenes de datos.
 
-### Casos de uso:
-- **Gestión de bases de datos en el comercio minorista**:  
-  Para almacenar información sobre productos, clientes y pedidos.
-- **Atención médica**:  
-  Para almacenar información sobre pacientes y registros médicos.
-- **Finanzas**:  
-  Para almacenar información sobre transacciones y cuentas.
-- **Comercio electrónico**:  
-  Para almacenar información sobre productos, usuarios y pedidos.
-- **Redes sociales**:  
-  Para almacenar información sobre usuarios y sus interacciones.
-- **Ciberseguridad**:  
-  + **Auditoría de accesos y detección de intrusiones (SIEM)**:  
-    Propósito: Registrar cada intento de autenticación en la infraestructura para detectar patrones anómalos.
-  + **Gestión de Vulnerabilidades y Activos (Asset & Patch Management)**:  
-    Propósito: Mapear qué servidores o equipos tienen vulnerabilidades conocidas (CVEs) pendientes de corregir.
-  + **Control de Acceso Basado en Roles (RBAC/IAM)**:  
-    Propósito: Garantizar el principio de menor privilegio (Least Privilege) administrando qué usuario puede ejecutar qué acción.
-  + **Gestión de Incidentes de Seguridad (SOC)**:  
-    Propósito: Registrar y hacer seguimiento a alertas de seguridad atendidas por el Centro de Operaciones de Seguridad (SOC).
+### Casos de uso en Ciberseguridad:
+- **Auditoría de accesos y detección de intrusiones (SIEM)**:  
+  Propósito: Registrar cada intento de autenticación en la infraestructura para detectar patrones anómalos.
+- **Gestión de Vulnerabilidades y Activos (Asset & Patch Management)**:  
+  Propósito: Mapear qué servidores o equipos tienen vulnerabilidades conocidas (CVEs) pendientes de corregir.
+- **Control de Acceso Basado en Roles (RBAC/IAM)**:  
+  Propósito: Garantizar el principio de menor privilegio (Least Privilege) administrando qué usuario puede ejecutar qué acción.
+- **Gestión de Incidentes de Seguridad (SOC)**:  
+  Propósito: Registrar y hacer seguimiento a alertas de seguridad atendidas por el Centro de Operaciones de Seguridad (SOC).
 
 ### ¿Qué es SQL y para qué sirve?
 - **Definición**:  
@@ -81,19 +70,6 @@ Es una forma de organizar información en tablas con filas y columnas, estableci
     Uso: gestionar las transacciones en una base de datos.  
     Comandos principales: COMMIT, ROLLBACK, SAVEPOINT, etc.
    
-### ¿Qué es y cuándo usar NoSQL?  
-[🔗](https://www.oracle.com/lad/database/nosql/what-is-nosql/)
-- **Significado**:  
-Originalmente significaba "Non-SQL", ahora se interpreta más comúnmente como "Not Only SQL" o "No Solo SQL" y se refiere a una categoría amplia de sistemas de gestión de bases de datos que se desvían del modelo relacional tradicional y, por lo tanto, no utilizan SQL como su lenguaje de consulta principal o exclusivo.
-- **Comparación**:  
-  Mientras que las bases de datos relacionales (SQL) se basan en un esquema rígido, tablas estructuradas, claves primarias y foráneas, y la estricta adherencia a la atomicidad, consistencia, aislamiento y durabilidad (ACID), las bases de datos NoSQL ofrecen un enfoque más flexible y variado para el almacenamiento y la recuperación de datos.
-- **¿Cuándo usar NoSQL?**
-  + Necesita escalabilidad horizontal para manejar grandes volúmenes de datos y/o tráfico.
-  + Trabaja con datos no estructurados o semi-estructurados cuyo esquema es flexible o evoluciona rápidamente.
-  + La velocidad de desarrollo y la capacidad de iterar rápidamente sobre el modelo de datos son cruciales.
-  + La consistencia estricta (ACID) es menos crítica que la disponibilidad y la toleración a particiones (modelo BASE: Basically Available, Soft state, Eventually consistent).
-  + El modelo de datos natural del problema se ajusta mejor a uno de los modelos NoSQL (por ejemplo, grafos para relaciones, documentos para jerarquías complejas).
-
 ### Entorno de Trabajo (Video Demo)
 - Instalación y configuración de un Cliente SQL (DBeaver / MySQL Workbench / PHPMyAdmin).
 - Conexión a una base de datos de ejemplo.
