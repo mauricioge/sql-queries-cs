@@ -5,7 +5,7 @@ Este curso está diseñado para principiantes y personas que deseen reforzar sus
 
 ## TEMARIO:
 
-### MÓDULO 0: [Introducción a BBDD y SQL (45min)](https://github.com/mauricioge/sql/blob/main/modulo0.md)
+### MÓDULO 0: [Introducción a BBDD y SQL (45min)](https://github.com/mauricioge/sql-queries-cs/blob/main/modulo0.md)
 - **¿Qué es una Base de Datos Relacional?**
   + Conceptos clave.
   + Sistemas de Gestión de Bases de Datos Relacionales (RDBMS)
@@ -20,7 +20,7 @@ Este curso está diseñado para principiantes y personas que deseen reforzar sus
   + Conexión a una base de datos de ejemplo.
   + Concepto de `SELECT` simple para ver una tabla.
 
-### MÓDULO 1: [Consultas Básicas de Selección (1h 15min)](https://github.com/mauricioge/sql/blob/main/modulo1.md)
+### MÓDULO 1: [Consultas Básicas de Selección (1h 15min)](https://github.com/mauricioge/sql-queries-cs/blob/main/modulo1.md)
 - **Sentencia `SELECT`**
   + Seleccionar todas las columnas (`SELECT *`).
   + Seleccionar columnas específicas (`SELECT columna1, columna2,`).
@@ -45,7 +45,7 @@ Este curso está diseñado para principiantes y personas que deseen reforzar sus
 - **Limitar Resultados (`LIMIT` / `TOP`):**
   + Cómo obtener un número específico de filas.
 
-### MÓDULO 3: [Agregación y Agrupación de Datos (1h)](https://github.com/mauricioge/sql/blob/main/modulo3.md)
+### MÓDULO 3: [Agregación y Agrupación de Datos (1h)](https://github.com/mauricioge/sql-queries-cs/blob/main/modulo3.md)
 - **Funciones de Agregación:**
   + `COUNT()`: Contar filas.
   + `SUM()`: Sumar valores numéricos.
@@ -59,7 +59,7 @@ Este curso está diseñado para principiantes y personas que deseen reforzar sus
   + Diferencia entre `WHERE` y `HAVING`.
   + Filtrar resultados después de la agrupación.
 
-### MÓDULO 4: [Combinación de Tablas (JOINs) y Subconsultas (1h)](https://github.com/mauricioge/sql/blob/main/modulo4.md)
+### MÓDULO 4: [Combinación de Tablas (JOINs) y Subconsultas (1h)](https://github.com/mauricioge/sql-queries-cs/blob/main/modulo4.md)
 - **Concepto de JOINs:**
   + Relaciones entre tablas.
 - **Tipos de JOINs más comunes:**
