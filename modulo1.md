@@ -51,6 +51,15 @@ Es una forma de organizar información en tablas con filas y columnas, estableci
   Para almacenar información sobre productos, usuarios y pedidos.
 - **Redes sociales**:  
   Para almacenar información sobre usuarios y sus interacciones.
+- **Ciberseguridad**:  
+  + **Auditoría de accesos y detección de intrusiones (SIEM)**:  
+    Propósito: Registrar cada intento de autenticación en la infraestructura para detectar patrones anómalos.
+  + **Gestión de Vulnerabilidades y Activos (Asset & Patch Management)**:  
+    Propósito: Mapear qué servidores o equipos tienen vulnerabilidades conocidas (CVEs) pendientes de corregir.
+  + **Control de Acceso Basado en Roles (RBAC/IAM)**:  
+    Propósito: Garantizar el principio de menor privilegio (Least Privilege) administrando qué usuario puede ejecutar qué acción.
+  + **Gestión de Incidentes de Seguridad (SOC)**:  
+    Propósito: Registrar y hacer seguimiento a alertas de seguridad atendidas por el Centro de Operaciones de Seguridad (SOC).
 
 ### ¿Qué es SQL y para qué sirve?
 - **Definición**:  
