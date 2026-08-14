@@ -5,26 +5,22 @@ Este curso está diseñado para principiantes y personas que deseen reforzar sus
 
 ## TEMARIO:
 
-### MÓDULO 1: [Introducción a BBDD y SQL (45min)](https://github.com/mauricioge/sql/blob/main/modulo1.md)
+### MÓDULO 0: [Introducción a BBDD y SQL (45min)](https://github.com/mauricioge/sql/blob/main/modulo0.md)
 - **¿Qué es una Base de Datos Relacional?**
   + Conceptos clave.
   + Sistemas de Gestión de Bases de Datos Relacionales (RDBMS)
   + Ventajas.
-  + Ejemplos de uso.
+  + Casos de uso en Ciberseguridad.
 - **¿Qué es SQL y para qué sirve?**
   + Definición.
   + Propósito.
   + Categorías de comandos SQL.
-- **¿Qué es y cuándo usar NoSQL?**
-  + Definición.
-  + Comparación.
-  + ¿Cuándo usar NoSQL?
 - **Entorno de Trabajo**
   + Instalación y configuración de un Cliente SQL.
   + Conexión a una base de datos de ejemplo.
   + Concepto de `SELECT` simple para ver una tabla.
 
-### MÓDULO 2: [Consultas Básicas de Selección (1h 15min)](https://github.com/mauricioge/sql/blob/main/modulo2.md)
+### MÓDULO 1: [Consultas Básicas de Selección (1h 15min)](https://github.com/mauricioge/sql/blob/main/modulo1.md)
 - **Sentencia `SELECT`**
   + Seleccionar todas las columnas (`SELECT *`).
   + Seleccionar columnas específicas (`SELECT columna1, columna2,`).
