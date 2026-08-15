@@ -1,4 +1,4 @@
-# MÓDULO 2: Consultas Básicas (CRUD) (1h 15min)
+# MÓDULO 1: Consultas Básicas (CRUD) (1h 15min)
 
 ## Comentarios
 - Comentar **una línea** con: `--`
