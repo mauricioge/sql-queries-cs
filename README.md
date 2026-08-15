@@ -21,45 +21,27 @@ Este curso está diseñado para principiantes y personas que deseen reforzar sus
   + Concepto de `SELECT` simple para ver una tabla.
 
 ### MÓDULO 1: [Consultas Básicas de Selección (1h 15min)](https://github.com/mauricioge/sql-queries-cs/blob/main/modulo1.md)
-- **Sentencia `SELECT`**
-  + Seleccionar todas las columnas (`SELECT *`).
-  + Seleccionar columnas específicas (`SELECT columna1, columna2,`).
-  + Incluir columnas estáticas (`SELECT 'Hola Mundo'`).
-  + Incluir columnas calculadas (`SELECT columna1 + columna2`).
-  + Renombrar columnas (`SELECT columna1, columna2,`).
-  + Alias de columnas (`AS`).
-- **Sentencia `FROM`**
-- **Filtrar Resultados con `WHERE`:**
-  + Operadores de comparación `=`, `!=`, `<`, `>`, `<=`, `>=`
-  + Operadores lógicos `AND`, `OR`, `NOT`
-  + Operador `BETWEEN` y `NOT BETWEEN`.
-  + `IN` y `NOT IN`.
-  + `LIKE` y `NOT LIKE` (uso de `%` y `_`).
-  + `IS NULL` y `IS NOT NULL`.
+- **Sentencias `SELECT` y `FROM`**
+- **Filtrar Resultados con `WHERE`**
 - **Sentencia `INSERT INTO`**
 - **Sentencia `UPDATE`**
 - **Sentencia `DELETE`**
-- **Ordenar Resultados (`ORDER BY`):**
-  + Orden ascendente (`ASC`) y descendente (`DESC`).
-  + Ordenar usando múltiples columnas.
-- **Limitar Resultados (`LIMIT` / `TOP`):**
-  + Cómo obtener un número específico de filas.
+- **Ordenar Resultados (`ORDER BY`)**
+- **Limitar Resultados (`LIMIT` / `TOP`)**
+- **Orden lógico de ejecución de una consulta**
 
-### MÓDULO 3: [Agregación y Agrupación de Datos (1h)](https://github.com/mauricioge/sql-queries-cs/blob/main/modulo3.md)
-- **Funciones de Agregación:**
-  + `COUNT()`: Contar filas.
-  + `SUM()`: Sumar valores numéricos.
-  + `AVG()`: Calcular el promedio.
-  + `MIN()`: Encontrar el valor mínimo.
-  + `MAX()`: Encontrar el valor máximo.
-- **Agrupación de Resultados (`GROUP BY`):**
-  + Agrupar datos por una o más columnas.
-  + Uso de funciones de agregación con `GROUP BY`.
-- **Filtrado de Grupos (`HAVING`):**
-  + Diferencia entre `WHERE` y `HAVING`.
-  + Filtrar resultados después de la agrupación.
+### MÓDULO 2: [Filtrado avanzado y manejo de NULL (40 min)](https://github.com/mauricioge/sql-queries-cs/blob/main/modulo2.md)
+- **Operadores lógicos: `AND`, `OR`, `NOT`**
+- **`BETWEEN`, `IN`, `LIKE` (con `%` y `_`)**
+- **Manejo de `NULL`: `IS NULL` / `IS NOT NULL` (por qué `= NULL` no funciona)**
+- **Funciones de reemplazo de `NULL`: `COALESCE`, `ISNULL` (SQL Server) / `NVL` (Oracle) / `IFNULL` (MariaDB)**
 
-### MÓDULO 4: [Combinación de Tablas (JOINs) y Subconsultas (1h)](https://github.com/mauricioge/sql-queries-cs/blob/main/modulo4.md)
+### MÓDULO 3: [Funciones de agregación y agrupamiento (40 min)](https://github.com/mauricioge/sql-queries-cs/blob/main/modulo3.md)
+- **Funciones de agregación: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`**
+- **`GROUP BY` - Agrupar por una o varias columnas**
+- **`HAVING` vs `WHERE`**
+
+### MÓDULO 4: [JOINs (50 min)](https://github.com/mauricioge/sql-queries-cs/blob/main/modulo4.md)
 - **Concepto de JOINs:**
   + Relaciones entre tablas.
 - **Tipos de JOINs más comunes:**
