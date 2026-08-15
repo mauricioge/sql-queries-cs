@@ -19,7 +19,11 @@ Es una solicitud que se enviará a una base de datos con el fin de obtener un co
 - **Seleccionar todas las columnas en una tabla**  
   `SELECT * FROM tabla`
 - **Seleccionar columnas específicas en una tabla**  
-  `SELECT columna1, columna2 FROM tabla`
+  `SELECT columna1, columna2, columna5 FROM tabla`
+- **Incluir columnas estáticas**
+  `SELECT 'Hola mundo' FROM tabla`
+- **Incluir columnas calculadas**
+  `SELECT columna1 + columna2 FROM tabla`
 - **Alias de columna**  
   `SELECT columna1 AS nuevo_nombre FROM tabla`
 - **Alias de tabla**  
@@ -56,9 +60,9 @@ Es una solicitud que se enviará a una base de datos con el fin de obtener un co
   `DELETE FROM tabla WHERE condicion`
 
 ## Ordenar Resultados con `ORDER BY`:
-- **Orden ascendente `ASC`**  
+- **Orden ascendente `ASC` (predeterminado)(de menor a mayor)**  
   `ORDER BY columna1 ASC`
-- **Orden descendente `DESC`**  
+- **Orden descendente `DESC` (de mayor a menor)**  
   `ORDER BY columna1 DESC`
 - **Ordenar usando más de una columna**  
   `ORDER BY columna1 ASC, columna2 DESC`
