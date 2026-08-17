@@ -70,3 +70,14 @@ Es una solicitud que se enviará a una base de datos con el fin de obtener un co
 ## Limitar Resultados con `LIMIT` / `TOP`:
 - **Solicitar un número específico de filas**  
   `SELECT * FROM tabla LIMIT 10`
+`INSERT INTO intentos_login VALUES
+(1, 'jgomez',   '192.168.1.10',  '2026-08-10 08:15:00', 'EXITOSO', 'El Salvador'),
+(2, 'jgomez',   '203.0.113.45',  '2026-08-10 08:16:12', 'FALLIDO', 'Rusia'),
+(3, 'jgomez',   '203.0.113.45',  '2026-08-10 08:16:40', 'FALLIDO', 'Rusia'),
+(4, 'mrivas',   '192.168.1.22',  '2026-08-10 09:02:05', 'EXITOSO', 'El Salvador'),
+(5, 'admin',    '198.51.100.7',  '2026-08-10 09:45:33', 'FALLIDO', 'China'),
+(6, 'admin',    '198.51.100.7',  '2026-08-10 09:45:50', 'FALLIDO', 'China'),
+(7, 'admin',    '198.51.100.7',  '2026-08-10 09:46:02', 'FALLIDO', 'China'),
+(8, 'lperez',   '192.168.1.5',   '2026-08-10 10:12:19', 'EXITOSO', 'El Salvador'),
+(9, 'jgomez',   '192.168.1.10',  '2026-08-10 11:30:00', 'EXITOSO', 'El Salvador'),
+(10,'mrivas',   '45.33.32.156',  '2026-08-10 12:05:47', 'FALLIDO', 'Alemania');`
