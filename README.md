@@ -1,4 +1,4 @@
-# SQL para analistas de Ciberseguridad - X horas
+# Consultas SQL para Analistas de Ciberseguridad - X horas
 
 ## A QUIÉN ESTÁ DIRIGIDO:
 Este curso está diseñado para principiantes y personas que deseen reforzar sus conocimientos en la creación de consultas SQL para extraer y manipular datos de bases de datos relacionales.
