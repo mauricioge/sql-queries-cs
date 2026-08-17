@@ -1,4 +1,4 @@
-# MÓDULO 1: Consultas Básicas (CRUD) (1h 15min)
+# MÓDULO 1: Fundamentos de Consulta (1h 15min)
 
 ## Comentarios
 - Comentar **una línea** con: `--`
@@ -71,17 +71,20 @@ Es una solicitud que se enviará a una base de datos con el fin de obtener un co
 - **Solicitar un número específico de filas**  
   `SELECT * FROM tabla LIMIT 10`
 
+## Dataset de ejemplo: `intentos_login`
+- **Script de creación (sintaxis genérica, ajustable por motor):**
+
 ```SQL
-  CREATE TABLE intentos_login (
-    id_intento      INT PRIMARY KEY,
-    usuario         VARCHAR(50),
-    direccion_ip    VARCHAR(15),
-    fecha_hora      DATETIME,
-    resultado       VARCHAR(10),   -- 'EXITOSO' o 'FALLIDO'
-    pais_origen     VARCHAR(50)
+CREATE TABLE intentos_login (
+  id_intento      INT PRIMARY KEY,
+  usuario         VARCHAR(50),
+  direccion_ip    VARCHAR(15),
+  fecha_hora      DATETIME,
+  resultado       VARCHAR(10),   -- 'EXITOSO' o 'FALLIDO'
+  pais_origen     VARCHAR(50)
 );
 ```
-  
+- **Datos de ejemplo (ficticios) para poblar la tabla:**  
 ```SQL
 INSERT INTO intentos_login VALUES
 (1, 'jgomez',   '192.168.1.10',  '2026-08-10 08:15:00', 'EXITOSO', 'El Salvador'),
@@ -94,4 +97,40 @@ INSERT INTO intentos_login VALUES
 (8, 'lperez',   '192.168.1.5',   '2026-08-10 10:12:19', 'EXITOSO', 'El Salvador'),
 (9, 'jgomez',   '192.168.1.10',  '2026-08-10 11:30:00', 'EXITOSO', 'El Salvador'),
 (10,'mrivas',   '45.33.32.156',  '2026-08-10 12:05:47', 'FALLIDO', 'Alemania');
+```
+
+## Consultas guiadas
+- **`SELECT/FROM` - primer contacto**
+```SQL
+SELECT usuario, direccion_ip, resultado
+FROM intentos_login;
+```
+
+- **`WHERE` - aislar lo sospechoso**
+```SQL
+SELECT usuario, direccion_ip, resultado
+FROM intentos_login
+WHERE resultado = 'FALLIDO';
+```
+
+- **`AND` - delimitar aún más**
+```SQL
+SELECT usuario, direccion_ip, fecha_hora
+FROM intentos_login
+WHERE resultado = 'FALLIDO' AND pais_origen <> 'El Salvador';
+```
+
+- **`ORDER BY` - reconstruir la línea de tiempo**
+```SQL
+SELECT usuario, direccion_ip, fecha_hora, resultado
+FROM intentos_login
+WHERE usuario = 'admin'
+ORDER BY fecha_hora ASC;
+```
+
+- **Orden lógico de ejecución - error clásico**
+```SQL
+SELECT usuario, COUNT(*) AS total_fallidos
+FROM intentos_login
+WHERE total_fallidos > 2   -- ERROR: alias no existe todavía en este punto
 ```
